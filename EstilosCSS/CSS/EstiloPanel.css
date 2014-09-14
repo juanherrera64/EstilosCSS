@@ -61,5 +61,9 @@
     color: #fff;
 
     border-top-left-radius: 5px;
+<<<<<<< HEAD
     border-bottom-right-radius: 10px;
+=======
+    border-bottom-right-radius: 5px;
+>>>>>>> origin/master
 }
