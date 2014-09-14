@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="estilos3D.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1"> 
+    <meta />
+
+</head>
+<body style="user-select:none;">
+
+    <div id="fondoPanel" style="position: absolute; top:0px; left:0px; width: 140px; height:500px; background-color: #7F7F7F; user-select:none; ">
+
+        <div id="op1" class="fondo3d" style="left:14px; top:20px; position:fixed; text-align:center; align-content:center; -ms-user-select:none;">
+            <label id="op1_lbl" style="color:white;">
+                Torax AX Izq
+            </label>
+        </div>
+
+        <div id="op3" class="fondo3d" style="left: 10px; top:100px; position:absolute; align-content: center; text-align:center; display:inline-block; user-select:none; -ms-user-select:none;">
+            <label id="Label1" style="color:white; vertical-align:central; text-align:center; user-select:none;">
+                Craneo
+            </label>
+        </div>
+    </div>
+
+    <div id="segundo_panel" style="position:absolute; top:0px; left:130px; width:250px; height:500px; background-color:#808080"> 
+
+       <!-- <div id="div2" class="fondoBoton" style="left: 10px; top:20px; position:absolute; align-content: center; text-align:center; user-select:none; -ms-user-select:none; width:70px; height:70px;">
+        </div>-->
+
+        <div id="div1" class="fondoBoton mod2" style="left: 10px; top:120px; position:absolute; align-content: center; text-align:center; user-select:none; -ms-user-select:none; width:70px; height:70px;">
+        </div>
+
+        <div id="div3" class="fondoBoton modGris" style="left: 10px; top:220px; position:absolute; align-content:center; text-align:center; user-select:none; -ms-user-select:none; width:60px; height:60px;">
+            <img id="prueba" src="girar.png" style="margin-left: 0px; margin-top: 0px; width:60px; height: 60px" />
+            <!--<label id="Label9" style="color:white; user-select:none; position: relative; top: 10px;">
+                Preset
+            </label>-->
+        </div>
+    </div>
+
+
+    <div id="tercer_panel" style="position:absolute; top: 0px; left:250px; width: 250px; height:500px; background-color:black; ">
+        <img id="torax" src="torax.jpg" style="margin-left: 0px; margin-top: 0px; z-index: -1;" />
+
+        <div id="divMenu" class="bubble">
+            <label id="opPropiedades" style="color:white; top:0px; left: 12px; position: relative; font-size:16px;">
+                Propiedades 
+            </label>
+            <label id="Label3" style="color:white; top:0px; left: 16px; position: relative; color: rgb(85, 85, 85); font-size:22px; font-weight:bold;">
+                 |
+            </label>
+            <label id="opEliminar" style="color:white; top:0px; left: 20px; position: relative; font-size:16px;">
+                 Eliminar
+            </label>
+        </div>
+
+        <div id="divMenu2" class="estiloMenu">
+            <label id="Label6" style="color:white; top:4px; left: 7%; position:relative; font-size:18px;">
+                Propiedades 
+            </label>
+            <label id="Label7" style="color:white; top:4px; left: 11%; position: relative; color: rgb(85, 85, 85); font-size:26px; font-weight:bold;">
+                 |
+            </label>
+            <label id="Label8" style="color:white; top:4px; left: 19%; position: relative; font-size:18px;">
+                 Eliminar
+            </label>
+        </div>
+
+        <div id="menuImagen" style="top:380px; left:50px; position:absolute;">
+            <img id="imagenGlobo" src="Menuanotacion.gif" style="margin-left: 0px; margin-top: 0px; width:260px; height: 70px" />
+
+            <label id="Label2" style="color:white; top:-67px; left: 7%; position:relative; font-size:18px;">
+                Propiedades 
+            </label>
+            <label id="Label4" style="color:white; top:-65px; left: 14%; position: relative; color: rgb(85, 85, 85); font-size:26px; font-weight:bold;">
+                 |
+            </label>
+            <label id="Label5" style="color:white; top:-67px; left: 25%; position: relative; font-size:18px;">
+                 Eliminar
+            </label>
+        </div>
+    </div>
+
+    <script>
+        var button;
+        panel = document.getElementById('segundo_panel');
+        panel.addEventListener("touchstart", function () { }, false);
+
+    </script>
+</body>
+</html>

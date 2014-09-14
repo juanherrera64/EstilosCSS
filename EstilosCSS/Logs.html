@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    
+    <link rel="stylesheet" type="text/css" href="estilos3D.css" />
+    
+</head>
+<body>
+    <div id="fondoPanel" style="position: absolute; top:0px; left:0px; width: 140px; height:500px; background-color: #7F7F7F; user-select:none; ">
+
+        <div id="op1" class="fondo3d" style="left:14px; top:20px; position:fixed; text-align:center; align-content:center; -ms-user-select:none;" onclick="Log1()">
+            <label id="op1_lbl" style="color:white;">
+                Log1
+            </label>
+        </div>
+
+        <div id="op3" class="fondo3d" style="left: 10px; top:100px; position:absolute; align-content: center; text-align:center; display:inline-block; user-select:none; -ms-user-select:none;" onclick="Log2();">
+            <label id="Label1" style="color:white; vertical-align:central; text-align:center; user-select:none;">
+                Log2
+            </label>
+        </div>
+    </div>
+
+    <script src="JSLog.min.js"></script>
+
+    <script type="text/javascript">
+        var p = JSLog.Register('App.Visor');
+
+        function Log1() {
+            //console.log('clic');
+            // Genera mensage para log (consola)
+            p.log('something');
+            p.warn('warning');
+            p.error('error!');
+        }
+
+        function Log2() {
+            JSLog.Dump('App.Visor');
+
+        }
+
+    </script>
+        
+</body>
+</html>
