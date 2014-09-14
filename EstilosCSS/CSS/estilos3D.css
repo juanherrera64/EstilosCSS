@@ -113,29 +113,6 @@
 	box-shadow: 0px 5px 0px #ff6a00, 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
 }
 
-.fondoBoton.modPrueba {
-	display:inline-block;
-	text-decoration:none;
-	color: #fff;
-	background-color: #538fbe;
-	/*border: 1px solid #2d6898; */
-
-	/* Gradiente */
-	background-image: linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-	background-image: -o-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-	background-image: -moz-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-	background-image: -webkit-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 100%);
-	background-image: -ms-linear-gradient(bottom, rgb(73,132,180) 0%, rgb(97,155,203) 50%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0, rgb(73,132,180)),
-		color-stop(1, rgb(97,155,203))
-	);
-
-}
 
 .fondoBoton.modGris {
 	display:inline-block;
