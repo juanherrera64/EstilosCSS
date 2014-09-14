@@ -138,9 +138,6 @@
 
 	/* Shadows */
 	text-shadow: 0px -1px 0px rgba(0,0,0,.5);
-	/*-webkit-box-shadow: 0px -3px 0px rgb(95, 96, 96), 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
-	-moz-box-shadow: 0px -3px 0px rgb(95, 96, 96), 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
-	box-shadow: 0px -3px 0px rgb(95, 96, 96), 0px 3px 15px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);*/
 
 	-webkit-box-shadow: 0px -3px 1px rgb(95, 96, 96), 2px 2px 2px rgb(0, 0, 0), -2px 2px 2px rgb(0, 0, 0), 2px -4px 2px rgb(0, 0, 0), -2px -4px 2px rgb(0, 0, 0);
 	-moz-box-shadow: 0px -3px 1px rgb(95, 96, 96), 2px 2px 2px rgb(0, 0, 0), -2px 2px 2px rgb(0, 0, 0), 2px -4px 2px rgb(0, 0, 0), -2px -4px 2px rgb(0, 0, 0) ;

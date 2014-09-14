@@ -3,3 +3,8 @@ D:\Prefixa\CMR\ProyectosCMR\EstilosCSS\EstilosCSS\bin\EstilosCSS.pdb
 D:\Prefixa\CMR\ProyectosCMR\EstilosCSS\EstilosCSS\obj\Debug\EstilosCSS.dll
 D:\Prefixa\CMR\ProyectosCMR\EstilosCSS\EstilosCSS\obj\Debug\EstilosCSS.pdb
 D:\Prefixa\CMR\ProyectosCMR\EstilosCSS\EstilosCSS\obj\Debug\EstilosCSS.csprojResolveAssemblyReference.cache
+D:\Prefixa\GitHub\CMR\EstilosCSS\EstilosCSS\bin\EstilosCSS.dll
+D:\Prefixa\GitHub\CMR\EstilosCSS\EstilosCSS\bin\EstilosCSS.pdb
+D:\Prefixa\GitHub\CMR\EstilosCSS\EstilosCSS\obj\Debug\EstilosCSS.csprojResolveAssemblyReference.cache
+D:\Prefixa\GitHub\CMR\EstilosCSS\EstilosCSS\obj\Debug\EstilosCSS.dll
+D:\Prefixa\GitHub\CMR\EstilosCSS\EstilosCSS\obj\Debug\EstilosCSS.pdb
