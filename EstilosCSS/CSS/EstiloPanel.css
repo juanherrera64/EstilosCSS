@@ -43,6 +43,11 @@
     border-top-left-radius: 10px;
 }
 
+.fondotituloVentanaPopAgregadoDesdePC {
+    background-color: #d04343;
+    border-top-left-radius: 10px;
+}
+
 .tituloVentanaPop {
     font-size: 18px;
     background-color: #191313;
